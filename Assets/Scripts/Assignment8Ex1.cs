@@ -10,13 +10,16 @@ public class Assignment8 : MonoBehaviour
         while(counter<20){
 
             int RandomValue=Random.Range(1,21);
+            
+            if (RandomValue == 5 ){
+                continue;}
 
             Debug.Log(RandomValue);
 
-            if (RandomValue == 5 )continue;
-
-            else if (RandomValue == 15 )break;
-
+            if (RandomValue == 15 ){
+                break;}
+            
+    
             counter++;
 
         }
