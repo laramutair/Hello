@@ -22,7 +22,10 @@ public class Player
     }
     public void Heal(bool fullRestore){
         if( fullRestore == true)
-          Debug.Log(playerName +" health has become: " + health);;
+        {
+          health=100;
+          Debug.Log(playerName +" health has become: " + health);
+        }
     }
     public static void ShowPlayerCount(){
         Debug.Log("Player Count is: " + playerCount);
