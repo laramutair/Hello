@@ -18,11 +18,11 @@ public class Player
 
     public void Heal(int value){
         health+=value;
-        Debug.Log("Your health has become: " + health);
+        Debug.Log(playerName +" health has become: " + health);
     }
     public void Heal(bool fullRestore){
         if( fullRestore == true)
-          health=100;
+          Debug.Log(playerName +" health has become: " + health);;
     }
     public static void ShowPlayerCount(){
         Debug.Log("Player Count is: " + playerCount);
