@@ -20,6 +20,7 @@ public class Player
         health+=value;
         Debug.Log(playerName +" health has become: " + health);
     }
+    
     public void Heal(bool fullRestore){
         if( fullRestore == true)
         {
