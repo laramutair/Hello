@@ -24,7 +24,7 @@ public class CharacterTest : MonoBehaviour
 
             Debug.Log(soldier.Health);
 
-            officer.Attack(10,soldier);
+            // officer.Attack(10,soldier);
 
             Debug.Log(soldier.Health);
 
