@@ -6,6 +6,12 @@ namespace Assignment26
 {
 public class Kangaroo : Creature , IRunnable , IJumpable
 {
+
+     public override void Speak()
+     {
+        Debug.Log("Kangaroo says: Hop!");
+     }
+
     public void Run()
     {
         Debug.Log("Kangaroo is Run");
